@@ -1,0 +1,1464 @@
+html file ar aqvs a
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+.navbar {
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imglogo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #7a838b ;
+}
+
+.imgsecondary{
+    display: none;
+}
+
+.navigateinfo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    
+}
+
+.fa-search {
+    padding: 0 3px;
+}
+
+.fa-phone-alt {
+color: #ff4a52;
+padding: 5px;
+
+}
+
+.homebar, .sociallink, .sociallink1 {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 5px;
+    align-items: center;
+    
+}
+.homebar a{
+    color: #727272;
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.homebar a:hover {
+    color:#1ec6b6 ;
+}
+
+.sociallink1 {
+    display: block
+}
+
+.sociallink{
+    color: #AAB1B7;
+}
+
+.topsearchbtn {
+    text-align: center;
+    color: #fff;
+    width: 10%;
+    height: 100%;
+    display: block;
+    background: #ff4a52 ;
+    border-style: none;
+
+}
+
+a {
+ color: black;
+ font-size: 16px;
+ text-decoration:none
+
+}
+
+.navigate {
+   width: 47%;
+   margin-left: 30px;
+   padding-right: 100px;
+   justify-content: space-between;
+   display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+ul{
+   width: 70%;
+   align-items: center;
+   display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+
+
+.contact{
+    width: 25%;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+
+}
+.socialbar{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+justify-content: flex-end;
+}
+
+
+
+.dropbtn {
+ 
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdowncomment {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    color: #727272 !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px 15px;
+    color: #040E27;
+    font-size: 14px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.togglermenu {
+    display: none;
+}
+
+.dropdowntglr {display: none;}
+
+.startdiv {
+    width: 100%;
+    height: 650px;
+    background-image: url(pics/head/theme.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.indonesiap{
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 100;
+    font-size: 150px;
+    line-height: 100px;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 8px;
+    margin: 25px;
+   
+}
+
+.pixel, .togo {
+    font-family: "Rubik", sans-serif;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin: 35px ;
+}
+
+
+button.explore {
+    width: 180px;
+    height: 60px;
+    background: #1ec6b6;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin: 25px;
+
+}
+
+.explore:hover {
+    background: #ff4a52
+}
+
+
+.form1div {
+    width: 100%;
+  padding: 50px;
+    background: #040E27;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background: transparent;
+    border: 1px solid #363E52;
+    padding-left: 15px;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 46px;
+    width: 201px ;
+    margin: 5px;
+ 
+}
+
+.searchbtn {
+    line-height: 24px;
+    width: 130px;
+    padding: 13px 39px;
+    color: #FFF;
+    background: #ff4a52;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.searchbtn:hover {
+    background: #1ec6b6;
+}
+
+.comment1{
+    color: #7a838b;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.catalogdiv{
+    display: flex;
+flex-wrap:wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height:15%;
+    justify-content: center;
+    margin: 10px;
+  
+}
+.headlineh1{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 120px;
+}
+
+.viewpics {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: space-around;
+    justify-content: center;
+    margin: 50px 0 150px 0;
+}
+
+.italy, .brazil, .america, .nepal, .maldives, .indonesia {
+width: 330px;
+height: 270px;
+margin: 15px;
+box-sizing: border-box;
+align-items: flex-end;
+display: flex;
+
+}
+
+.italy{
+    
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%),
+    url(pics/populardestinations/italy.webp);
+}
+
+.italy:hover{
+    transform: translate( 0, -15px);
+}
+
+.italy:hover .places{
+    background: #ff4a52;
+}
+
+.italy:hover .plctitle{
+    color: #ff4a52;
+}
+
+.brazil{
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url(pics/populardestinations/brazil.webp);
+}
+
+.brazil:hover{
+    transform: translate( 0, -15px);
+}
+
+.brazil:hover .places{
+    background: #ff4a52;
+}
+
+.brazil:hover .plctitle{
+    color: #ff4a52;
+}
+
+.america{
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%),url(pics/populardestinations/america.webp);
+}
+
+.america:hover .places{
+    background: #ff4a52;
+}
+
+.america:hover .plctitle{
+    color: #ff4a52;
+}
+
+.america:hover{
+    transform: translate( 0, -15px);
+}
+.nepal{
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%),url(pics/populardestinations/nepal.webp);
+}
+
+
+.nepal:hover{
+    transform: translate( 0, -15px);
+}
+
+.nepal:hover .places{
+    background: #ff4a52;
+}
+
+.nepal:hover .plctitle{
+    color: #ff4a52;
+}
+
+.maldives{
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%),url(pics/populardestinations/maldives.webp);
+}
+
+.maldives:hover{
+    transform: translate( 0, -15px);
+}
+
+.maldives:hover .places{
+    background: #ff4a52;
+}
+
+.maldives:hover .plctitle{
+    color: #ff4a52;
+}
+.indonesia{
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%),url(pics/populardestinations/indonesia.webp);
+}
+.indonesia:hover{
+    transform: translate( 0, -15px);
+}
+
+.indonesia:hover .places{
+    background: #ff4a52;
+}
+
+.indonesia:hover .plctitle{
+    color: #ff4a52;
+}
+
+.plcdiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: flex-end;
+    padding: 0 0 30px 30px;
+    font-family: "Rubik", sans-serif;
+}
+.plctitle {
+    font-size: 22px;
+    font-family: "Rubik", sans-serif;
+    color: #FFF;
+}
+
+
+.places {
+
+    background: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 0px 12px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 10px;
+    border-style: none;
+}
+
+
+.subscribesec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%),url(pics/subscribe/subscribesec.webp);
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+
+.childsubscribe {
+width: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+}
+
+.subscribebttn {
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+padding: 0 15px;
+box-sizing: border-box;
+}
+.subscribetitle{
+    width: 30%;
+    height: 70%;
+    padding: 0 15px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+    margin-bottom: 11px;
+    font-family: "Rubik", sans-serif;
+}
+
+.subp {
+    color: #AAB1B7;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-family: "Rubik", sans-serif;
+}
+.subscribe {
+    line-height: 24px;
+    width: 130px;
+    height: 50px;
+    padding: 5px 39px;
+    color: #FFF;
+    background: #ff4a52;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.subscribe:hover {
+    background: #1ec6b6;
+}
+
+
+
+.subscribeinput{
+    width: 366px;
+    height: 48px;
+    padding: 1px 2px 1px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #444;
+    border-radius: 5px;
+    text-shadow: none;
+    font-size: 16px;
+    font-family: "Rubik",sans-serif;
+    font-weight: 300;
+    border-style: none;
+}
+
+
+
+.populartitle {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+width: 30%;
+background: #f7fafd;
+}
+
+.popularh1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    width: 100%;
+    display: flex;
+justify-content: center;
+margin-top: 120px;
+}
+
+.popularp {
+    color: #7a838b;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.price{
+    line-height: 25px;
+    background: #1ec6b6;
+    display: flex;
+    padding: 7px 18px 4px 18px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+border-style: none;
+}
+
+.price:hover{
+    background: #ff4a52;
+}
+
+.rateh1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 100%;
+    display: flex;
+}
+
+.ratep {
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    color: #7a838b;
+}
+
+
+.california, .korea, .London, .miami, .California1, .martine {
+    
+    width: 320px;
+    height: 320px;
+ 
+    margin-bottom: 200px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF;
+    box-shadow: 5px 10px #fff;
+}
+
+
+
+
+.ratecomment {
+    height: 100px;
+    background: #FFF;
+ 
+   
+}
+
+.rateh1, .ratep {
+    margin-bottom: 5px;
+    padding: 0;
+  
+}
+
+.ratestar{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 10px;
+   
+}
+
+.rate {
+width: 45%;
+height: 35%;
+display: flex;
+justify-content: flex-start;
+font-size: 12px;
+color: #FDAE5C;
+font-size: 12px;
+}
+
+.clock{
+    display: flex;
+    justify-content: flex-end;
+    width: 70px;
+    justify-content: space-between;
+    color: #7a838b;
+}
+
+.viewamount {
+    color: #7a838b;
+}
+
+.california {
+    background:url(pics/popularplaces/california.webp);
+    background-repeat: no-repeat;
+}
+
+.california:hover .price {
+background-color: #ff4a52;
+}
+
+.california:hover .rateh1 {
+    color:#ff4a52;
+}
+.korea {
+    background:url(pics/popularplaces/korea.webp);
+    background-repeat: no-repeat;
+    
+}
+
+.korea:hover .price {
+background-color: #ff4a52;
+}
+
+.korea:hover .rateh1 {
+    color:#ff4a52;
+}
+
+.London {
+    background:url(pics/popularplaces/london.webp);
+    background-repeat: no-repeat;
+   
+}
+
+.London:hover .price {
+background-color: #ff4a52;
+}
+
+.London:hover .rateh1 {
+    color:#ff4a52;
+}
+
+.miami {
+    background:url(pics/popularplaces/miami.webp);
+    background-repeat: no-repeat;
+    
+}
+
+.miami:hover .price {
+background-color: #ff4a52;
+}
+
+.miami:hover .rateh1 {
+    color:#ff4a52;
+}
+
+.California1 {
+    background:url(pics/popularplaces/california1.webp);
+    background-repeat: no-repeat;
+    
+}
+
+.california1:hover .price {
+background-color: #ff4a52;
+}
+
+.california1:hover .rateh1 {
+    color:#ff4a52;
+}
+
+.martine {
+    background:url(pics/popularplaces/martine.webp);
+    background-repeat: no-repeat;
+    
+}
+
+.martine:hover .price {
+background-color: #ff4a52;
+}
+
+.martine:hover .rateh1 {
+    color:#ff4a52;
+}
+
+
+
+
+inputsections
+
+.form2divs{
+    display: flex;
+flex-wrap: nowrap;
+}
+
+.popularplc {
+    display: flex;
+flex-wrap:wrap;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+background: #f7fafd;
+/* margin: 15px; */
+
+}
+
+
+
+
+
+
+.placescatalog{
+width: 70%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: space-around;
+    justify-content: center;
+    margin: 15px;
+    background: #FFF;
+}
+
+.moreplaces {
+    line-height: 25px;
+    width: 180px;
+    background: #FF4A52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 6px;
+    
+}
+
+.moreplaces:hover {
+    background:#1ec6b6 ;
+}
+
+.moreplacesbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f7fafd;
+    padding-bottom: 160px;
+}
+
+
+.click {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enjoyvideo {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.background{ 
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(pics/service/video.png.webp);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position-y: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    font-size: 70px;
+    line-height: 70px;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 7px;
+}
+
+
+.click {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+
+.fa-play {
+    color: white;
+    width: 16px;
+    height: 16x;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: button 1500ms ease-out infinite;
+    padding-left: 5px; 
+  
+}
+
+.maindiv {
+    width: 84px;
+    height: 84px;
+    border-radius: 100%;
+    background-color:#1EC6B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+ 
+}
+
+
+.childdiv {
+    width: 84px;
+    height: 84px;
+    background-color:#1EC6B6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: pulse-border 1500ms ease-out infinite;
+ 
+}
+
+.commercial {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.comfyjourney, .luxehotel, .travelguide {
+    width: 320px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.journey {
+    font-size: 22px;
+    font-weight: 400;
+    color: #040E27;
+    margin-bottom: 10px;
+    margin-top: 41px;
+    font-family: "Rubik", sans-serif;
+}
+
+.journeycomment {
+    font-size: 16px;
+    text-align: center;
+    color: #6E6E6E;
+    font-weight: 400;
+}
+
+
+.customersec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 40%; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+
+    color: #040E27;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 34px 0 10px 0;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.quots {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background: #1EC6B6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+margin: 61px;
+}
+
+
+.customercomment1 {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 100px;
+    background: #f7fafd;
+    padding: 50px 0;;
+
+}
+
+.customercomment {
+    color: #040E27;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 34px 0 10px 0;
+}
+
+.customerimg {
+    width: 106px;
+    width: 106px;
+}
+
+.customerquots {
+width: 106px;
+height: 106px;
+display: flex;
+flex-wrap: nowrap;
+}
+
+.author {
+    color: #7A838B;
+    font-weight: 400;
+}
+
+.dot {
+    color: #7A838B;
+    padding: 0 3px;
+}
+
+.china, .forest, .bike {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.china{
+    background: url(pics/recenttrips/china.webp);
+    background-repeat: no-repeat;
+}
+
+.forest {
+    background: url(pics/recenttrips/forest.webp);
+    background-repeat: no-repeat;
+}
+
+.bike {
+    background: url(pics/recenttrips/bike.webp);
+    background-repeat: no-repeat;
+}
+
+.datep {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7A838B;
+    display: block;
+    font-family: "Rubik", sans-serif;
+}
+
+.recentcomment1 {
+    color: #040E27;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif;
+}
+
+.recentplaces {
+    box-sizing: border-box;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-bottom: 250px;
+
+}
+
+
+.recenttrips {
+    margin-bottom: 62px;
+    font-family: "Rubik", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: #040E27;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.recent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.footdiv {
+
+    padding: 115px 200px 129px 200px;
+    width: 100%;
+    background:#040E27;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+.infocontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.contactinfo{
+    width: 18%;
+    color: #fff;
+    /* padding: 0 150px 0 0; */
+display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: flex-start;
+margin-right: 100px;
+}
+
+.company{
+    width: 15%;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: flex-start;
+margin-right: 100px;
+
+}
+
+.countrybox{
+    width: 100%;
+    height: 80%;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+flex-direction: row;
+align-items: flex-start;
+}
+
+.populardes{
+    width: 20%;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: flex-start;
+margin-left:100px ;
+align-items: center;
+}
+
+
+.instagram{
+    width: 20%;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: flex-start;
+/* margin-right: 100px; */
+}
+
+.instagramimages {
+    margin: 5px;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+}
+
+.instaimages {
+    width: 100%;
+    height: 80%;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: flex-start;  
+}
+
+.companyh1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 45px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    /* justify-content: flex-start; */
+    text-align: flex-start;;
+}
+
+.contactp1, .contactp {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #AAB1B7;
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.contactp{
+    line-height: 36px;
+}
+
+.imglogo1 {
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 40px;
+}
+
+
+.country1, .country2 {
+    height: 100%;
+   margin: 10px;
+    display: flex;
+box-sizing: border-box;
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+.logo1 {
+    margin-top: 20px;
+}
+
+.social {
+width: 100%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
+margin-top: 47px;
+font-family: "Rubik", sans-serif;
+font-weight: normal;
+font-style: normal;
+list-style-type: none;
+font-size: 1rem;
+line-height: 1;
+color: #AAB1B7;
+padding-right:30px;
+box-sizing: border-box;
+}
+
+.socialitems {
+    color: #AAB1B7;
+    padding: 25px 25px 25px 0;
+}
+
+.socialitems:hover {
+    color: #FF4A52;
+}
+
+.line {
+    width: 100%;
+    font-size: 14px;
+    color: #7A838B;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-top: 1px solid #7A838B;
+
+}
+
+.colorliba {
+    color: #FF4A52;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:1280px) {
+.navbar{
+    background-color: #4c4c4c;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.imglogo {
+    display: none;
+}
+
+.togglermenu {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+   
+}
+
+.togglerimg{
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+   
+}
+
+.dropdown-content{
+    background-color:#4c4c4c ;
+}
+
+.togglerimg1 {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  
+}
+
+.dropdowntglr {
+    margin-top: 20px;
+display: none;
+}
+
+.dropdowntglr, .dropdown{
+width: 100%;
+}
+
+  .togglermenu:hover .dropdowntglr{
+      display: block;
+      margin-top: 50px;
+  }
+
+  .togglermenu{
+      background-color: #4c4c4c;
+      position: absolute;
+  }
+
+  .navigate, .contact {
+      display:none;
+  }
+
+
+  .topsearchbtn{
+      display: none;
+  }
+
+  .imgprimary{
+display: none;
+  }
+
+
+   .imgsecondary{
+display: flex;
+   }
+  
+   .footdiv {
+       padding: 0;
+   }
+
+.instagram {
+    width: 20%;
+}
+
+}
+
+
+@media screen and (max-width: 890px) {
+    .instagram {
+    width: 35%;
+}
+
+.indonesiap{
+    font-size: 70px;
+
+}
+
+.pixel{
+    text-align: center;
+}
+
+.enjoyvideo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+  
+    width: 100%;
+}
+
+.populardes {
+    margin-right: 100px;
+}
+.footdiv{
+    margin: 0;
+}
+
+.infocontainer{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+.footdiv {
+    padding: 20px;
+}
+
+
+.populardes {
+    width: 40% ;
+    margin:0 20px;
+    justify-content: center;
+   
+}
+
+
+
+
+    .instagram {
+    width: 40%;
+    margin-left: 20px;
+}
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
